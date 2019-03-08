@@ -1,0 +1,40 @@
+
+h3, p {
+  text-align: center;
+  margin: 5em;
+}
+
+h1  {
+  padding-top: 2em;
+  text-align: center;
+}
+
+h4  {
+  text-align: center;
+}
+
+#result  {
+  text-align: center;
+  font-size: 20px;
+}
+
+.fancybox {
+  font-size: 40px;
+  color: black;
+  margin: 0;
+}
+
+
+.sea-parallax { 
+  background-image: url("images/sea-turtle.jpg");
+  height: 900px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-block.compact-gallery .item{
+background-color: white !important;
+}
