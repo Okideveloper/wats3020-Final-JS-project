@@ -22,12 +22,20 @@ document.addEventListener("DOMContentLoaded",
       name: "Manza Beach",
       description: "Located at ANA Intercontinental Manza Beach Resort this family friendly beach has rentable water activites, including a fun playground for kids and adults!"
     }, {
-      name: "Kabira Beach",
+      name: "Kabira Bay Beach",
       description: "Any input I want"
     }, {
       name: "Okuma Beach",
       description: "add more info"
     }];
+
+    //getting the beach image and applying a description
+    let items = document.querySelectorAll(".caption")
+    let counter = 0
+    for (let item of items){
+      item.innerHTML = beaches[counter].description
+      counter++
+    }
 
 
     const findBeach = function (beachName) {
@@ -84,8 +92,8 @@ document.addEventListener("DOMContentLoaded",
 
     //$("#validate").bind("click", validate);
 
-    let validateButton = document.querySelector('#validate');
-    validateButton.addEventListener('submit', function (event) {
+   
+    document.addEventListener('submit', function (event) {
       event.preventDefault()
       validate()
     })
