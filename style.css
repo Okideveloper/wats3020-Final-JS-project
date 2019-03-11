@@ -18,17 +18,10 @@ h4  {
   font-size: 20px;
 }
 
-.fancybox {
-  font-size: 40px;
-  color: black;
-  margin: 0;
-}
-
-
+/* Creates the parallax scrolling effect */
 .sea-parallax { 
   background-image: url("images/sea-turtle.jpg");
   height: 900px; 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,4 +30,32 @@ h4  {
 
 .gallery-block.compact-gallery .item{
 background-color: white !important;
+}
+
+/* Email form */
+.simple-subscription-form {
+  background: #0c3e5f;
+  color: #fefefe;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center
+}
+
+.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 4px;
+  width: 80px;
+  color: black;
+  font-weight: 400;
+  border-color: aquamarine;
+}
+
+#email  {
+  width: 250px;
+  border-color: aquamarine;
 }

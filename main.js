@@ -10,22 +10,22 @@ document.addEventListener("DOMContentLoaded",
 
 
     const beaches = [{
-      name: "Zanpa Beach",
-      description: "This beach has it all, jet skies, kayaks, water tubing and more! Relax on the beach or rent a chair and umbrella. "
+      name: "Manza Beach",
+      description: "Located at ANA Intercontinental Manza Beach Resort with rentables"
     }, {
-      name: "Emerald Beach",
-      description: "Info"
+      name: "Okuma Beach",
+      description: ""
     }, {
-      name: "Sesoko Beach",
+      name: "Kerama Beach",
       description: "info."
     }, {
-      name: "Manza Beach",
+      name: "Sesoko Beach",
       description: "Located at ANA Intercontinental Manza Beach Resort this family friendly beach has rentable water activites, including a fun playground for kids and adults!"
     }, {
       name: "Kabira Bay Beach",
       description: "Any input I want"
     }, {
-      name: "Okuma Beach",
+      name: "Zanpa Beach",
       description: "add more info"
     }];
 
@@ -101,4 +101,3 @@ document.addEventListener("DOMContentLoaded",
 
 
 
-//video
