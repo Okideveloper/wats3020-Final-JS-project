@@ -36,6 +36,10 @@ background-color: white !important;
   visibility: hidden;
 }
 
+.important  {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
 /* Email form */
 .simple-subscription-form {
   background: #0c3e5f;
